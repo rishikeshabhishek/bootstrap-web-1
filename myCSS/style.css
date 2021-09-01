@@ -1,0 +1,241 @@
+body {
+    background: black;
+}
+
+.majumdar {
+    border: 2px solid #380099;
+    padding: 4px;
+    transition: 1s ease-in-out;
+}
+
+.majumdar:hover {
+    letter-spacing: 3px;
+}
+
+nav i {
+    font-size: 2rem !important;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0px 4px;
+}
+
+nav i:hover {
+    font-size: 2.2rem !important;
+}
+
+.icon {
+    color: black !important;
+}
+
+.cHeight {
+    height: 700px !important;
+}
+
+.aboutH1 {
+    color: #cc8f00;
+    text-align: center;
+    margin-top: 2px;
+}
+
+span {
+    color: rgb(255, 0, 0);
+    font-size: 4rem;
+}
+
+.about {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.me {
+    height: 430px;
+    width: 430px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(214, 214, 214, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(202, 202, 202, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.me:hover {
+    transform: scale(.9);
+}
+
+.aboutP {
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #b6b6b6;
+}
+
+.btnAbout {
+    max-width: 29px;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btnAbout:hover {
+    max-width: 7rem;
+}
+
+.courseCards {
+    margin-top: 5px;
+}
+
+.courseCardsImg {
+    width: 418px;
+    height: 300px;
+}
+
+#demo {
+    background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+    max-width: 900px;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+#demo i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    margin-top: 60px;
+}
+
+form h3 {
+    color: #ffffff !important;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
